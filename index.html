@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1 {
+              text-align: center;
+            }
+
+            h2, h3 {
+                background-color: lightblue;
+            }
+            
+            h1, h2, h3 {
+                color: blue;
+            }
+
+            h1, h2, h3 {
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: justify;
+            }
+            
+            th {
+                background-color: lightblue;
+            }
+
+            * {
+                box-sizing: border-box;
+                }
+
+                input[type=text], select, textarea {
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                resize: vertical;
+                }
+
+                label {
+                padding: 12px 12px 12px 0;
+                display: inline-block;
+                }
+
+                input[type=submit] {
+                background-color: blue;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                float: right;
+                }
+
+                input[type=submit]:hover {
+                background-color: black;
+                }
+
+                .container {
+                border-radius: 5px;
+                background-color: #f2f2f2;
+                padding: 20px;
+                }
+
+                .col-25 {
+                float: left;
+                width: 25%;
+                margin-top: 6px;
+                }
+
+                .col-75 {
+                float: left;
+                width: 75%;
+                margin-top: 6px;
+                }
+
+                .row:after {
+                content: "";
+                display: table;
+                clear: both;
+                }
+
+                @media screen and (max-width: 600px) {
+                .col-25, .col-75, input[type=submit] {
+                    width: 100%;
+                    margin-top: 0;
+                }
+            }
+
+
+        </style>
+            
+        <title> Mi página personal</title>
+        <body>
+          <h1> Adriana González</h1>
+            <br>
+            <h2>Biografía</h2> 
+                <center> <img src="images/adriana_gonzalez.png" width="150" height="150" alt="Adriana González"> </center> 
+            <br>
+                <p> Nací el 15 de octubre del 2002 en la Ciudad de Panamá, nombrada por mi madre como Adriana Isabel González Espinosa. 
+                    Soy hija única, pero tengo amigos que considero mis hermanos. Estudié mi primaria en la Escuela El Buen Pastor, y la secundaria en el Colegio Nuestra Señora de Lourdes. 
+                    En mi infancia cambiaba a cada de rato de actividades extracurriculares porque me aburría fácilmente, pero gracias a eso tengo conocimientos de muchas cosas. 
+                    Tengo una gata con complejo de perro. Sé tocar el piano y me considero buena en la pintura paisajista. 
+                </p> 
+                <hr>
+            <h2>Favoritos</h2>
+                <h3>Platos</h3>
+                    <ul>
+                        <li>Lasaña</li>
+                        <li>Pizza Margherita</li>
+                        <li>Tacos de carne asada</li>
+                        <li>Langostinos en salsa de mango</li>
+                    </ul>
+                    <br>
+                <h3>Pasatiempos</h3>
+                    <ol>
+                        <li>Leer</li>
+                        <li>Jugar tenis</li>
+                        <li>Hacer jardinería</li>
+                        <li>Pintar</li>
+                        <li>Hacer ilustraciones</li>
+                    </ol>
+                    <br>
+                <h3>Canciones</h3>
+                <center> 
+                <table  border="1">
+                    <tr>
+                        <th>Género</th>
+                        <th>Nombre</th>
+                        <th>Autor</th>
+                        <th>Audio</th>
+                    </tr>
+                    <tr>
+                        <td>Rock</td>
+                        <td>The adults are talking</td>
+                        <td>The Strokes</td>
+                        <td>
+                            <audio controls>
+                            <source src="audios/the-strokes-the-adults-are-talking-audio.mp3" type="audio/mpeg">
+                            </audio>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Deep House</td>
+                        <td>Love Tonight</td>
+                        <td>Shouse</td>
+                        <td>
+                            <audio controls>
+                                <source src="audios/shouse-love-tonight-radio-edit.mp3" type="audio/mpeg">
+                                </audio>
+                            </td>
+                    </tr>
+
+                    <tr>
+                        <td>Jazz</td>
+                        <td>Istanbul in Blue</td>
+                        <td>Fahir Atakoğlu</td>
+                        <td>
+                            <audio controls>
+                                <source src="audios/istanbul-in-blue.mp3" type="audio/mpeg">
+                                </audio>
+                            </td>
+                    </tr>
+
+                    <tr>
+                        <td>Clásica</td>
+                        <td>Snowstorm</td>
+                        <td>Georgy Sviridov</td>
+                        <td>
+                            <audio controls>
+                            <source src="audios/georgy-sviridov-waltz-snowstorm.mp3" type="audio/mpeg">
+                            </audio>
+                        </td></td>
+                    </tr>
+                    </table>
+                </center>
+                <br>    
+                <h3>Libro</h3>
+                <center>
+                    <img src="images/tan-poca-vida.jpg" width="380" height="400" alt="Tan Poca Vida - Hanya Yanighara">
+                </center>
+                <br>
+                <center>
+                    <a href="https://www.casadellibro.com/libro-tan-poca-vida/9788426403278/3049446"> Tan Poca Vida - Hanya Yanighara</a>
+                </center>
+                <h3>Película</h3>
+                <center>
+                    <p>Orgullo y Prejuicio</p>
+                    <img src="images/Orgullo_y_prejuicio.jpg" width="380" height="400" alt="Orgullo y prejuicio">
+                    <br>
+                    <video width="600" height="600" controls>
+                        <source src="videos/Pride .mp4" type="video/mp4">
+                      </video>
+                </center>
+                <br>
+            <h2>Para mayor información contáctame:</h2>
+                <div class="container">
+                    <form action="/action_page.php">
+                    <div class="row">
+                    <div class="col-25">
+                        <label for="nombre">Nombre</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre...">
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-25">
+                        <label for="correo">Correo</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="correo" name="correo" placeholder="Ingrese su correo...">
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-25">
+                        <label for="country">Asunto</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="asunto" name="asunto" placeholder="Ingrese su asunto...">
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Mensaje</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="mensaje" name="mensaje" placeholder="Escriba su mensaje" style="height:200px"></textarea>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <input type="submit" value="Enviar">
+                    </div>
+                    </form>
+                </div>
+            <br>
+            <br>
+            <br>  
+        </body>
+            
+    </head>
+</html>
